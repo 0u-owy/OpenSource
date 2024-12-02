@@ -25,7 +25,7 @@ def main():
             elif choice == 2:
                 print("결과:", x-y) #빼기 기능 추가
             elif choice == 3:
-                print("결과:")
+                print("결과: ", x*y)
             elif choice == 4:
                 print("결과:")
         else:
