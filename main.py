@@ -27,7 +27,10 @@ def main():
             elif choice == 3:
                 print("결과: ", x*y)
             elif choice == 4:
-                print("결과:")
+                if y != 0:  # 0으로 나누는 경우를 방지
+                    print("결과:", x/y)
+                else:
+                    print("0으로 나눌 수 없습니다.") # 0으로 나누면 오류 메시지
         else:
             print("잘못된 입력.")
 
