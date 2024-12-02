@@ -32,7 +32,7 @@ def main():
                     print("결과:", x/y)
                 else:
                     print("0으로 나눌 수 없습니다.") # 0으로 나누면 오류 메시지
-            elif choice == "5":  # 지수 (x^y)
+            elif choice == 5:  # 지수 (x^y)
                 print("결과:", x ** y)  # x^y 계산
         else:
             print("잘못된 입력.")
