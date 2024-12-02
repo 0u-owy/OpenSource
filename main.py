@@ -21,7 +21,7 @@ def main():
             x = float(input("첫 번째 숫자 입력: "))
             y = float(input("두 번째 숫자 입력: "))
             if choice == 1:
-                print("결과:")
+                print("결과:", x+y) #더하기 기능 추가
             elif choice == 2:
                 print("결과:")
             elif choice == 3:
@@ -30,7 +30,6 @@ def main():
                 print("결과:")
         else:
             print("잘못된 입력.")
-
 
 if __name__ == "__main__":
     main()
