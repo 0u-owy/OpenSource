@@ -34,7 +34,7 @@ def main():
                     print("결과:", x/y)
                 else:
                     print("0으로 나눌 수 없습니다.") # 0으로 나누면 오류 메시지
-            elif choice == "5":  # 지수 (x^y)
+            elif choice == 5:  # 지수 (x^y)
                 print("결과:", x ** y)  # x^y 계산
             elif choice == 6:  # 제곱근
                 if x >= 0:  # 음수에 대한 제곱근은 계산 불가
