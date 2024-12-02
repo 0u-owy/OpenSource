@@ -11,13 +11,14 @@ def main():
         print("2. 빼기")
         print("3. 곱하기")
         print("4. 나누기")
+        print("5. 지수")  # 지수 기능 추가
 
         choice = input("번호 : ")
 
         if choice == "quit":
             print("종료")
             break
-        elif choice in ["1", "2", "3", "4"]:
+        elif choice in ["1", "2", "3", "4","5"]:
             x = float(input("첫 번째 숫자 입력: "))
             y = float(input("두 번째 숫자 입력: "))
             if choice == 1:
@@ -31,6 +32,8 @@ def main():
                     print("결과:", x/y)
                 else:
                     print("0으로 나눌 수 없습니다.") # 0으로 나누면 오류 메시지
+            elif choice == 5:  # 지수 (x^y)
+                print("결과:", x ** y)  # x^y 계산
         else:
             print("잘못된 입력.")
 
