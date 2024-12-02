@@ -23,7 +23,7 @@ def main():
             if choice == 1:
                 print("결과:", x+y) #더하기 기능 추가
             elif choice == 2:
-                print("결과:")
+                print("결과:", x-y) #빼기 기능 추가
             elif choice == 3:
                 print("결과:")
             elif choice == 4:
