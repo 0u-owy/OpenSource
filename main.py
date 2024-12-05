@@ -22,12 +22,14 @@ def main():
             break
         elif choice in ["1", "2", "3", "4","5","6"]:
             x = float(input("첫 번째 숫자 입력: "))
+
             if choice in ["1","2","3","4","5"]: #두번째 숫자가 필요한 경우
                 y = float(input("두 번째 숫자 입력: "))
+                
             if choice == "1":
-                print("결과:")
+                print("결과:", x+y)
             elif choice == "2":
-                print("결과:")
+                print("결과:", x-y)
             elif choice == "3":
                 print("결과: ", x*y)
             elif choice == "4":
@@ -44,7 +46,6 @@ def main():
                     print("음수에 대한 제곱근은 계산할 수 없습니다.")
         else:
             print("잘못된 입력.")
-
 
 if __name__ == "__main__":
     main()
